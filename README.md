@@ -66,4 +66,4 @@ If you chose to use the `.exe` file, just double click on it.
 
 This project is licensed under the MIT License. Do whatever you want with this code.
 
-Thanks to the great people behind Genaki for making this possible !
+Thanks to the great people behind Genanki for making this possible !
