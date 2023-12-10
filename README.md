@@ -1,6 +1,6 @@
 # Anki Deck Master
 
-Anki Deck Master is a desktop application that allows users to quickly create Anki flashcard decks for studying and memorization. With an intuitive and GUI made with tkinter, users can easily add, edit, and delete cards.
+Anki Deck Master is a desktop application that allows users to quickly create Anki flashcard decks for studying and memorization. With an intuitive GUI made with tkinter, users can easily add, edit, and delete cards.
 
 The final result is a `.apkg` file that can be imported into Anki.
 
@@ -16,7 +16,7 @@ The purpose of this project was to make the library Genanki more accessible to p
 
 ## Installation Guide
 
-To install and run Anki Deck Master, you have two option, either you dowload and run the .exe that is made available for your, or you can clone this repo and run it like a normal script.
+To install and run Anki Deck Master, you have two options, either you [download and run the .exe](https://github.com/PuddingNight/Anki-Deck-Master/releases/download/Anki_Deck_Master/Anki_Deck_Master.exe) that is made available for you, or you can clone this repo and run it like a normal script.
 
 For the second option, please follow these guidelines:
 
@@ -30,24 +30,26 @@ For the second option, please follow these guidelines:
 1. Clone the repository:
    ```sh
    git clone https://github.com/PuddingNight/Anki-Deck-Master
-   ```
+   
 
 2. Navigate to the cloned repository:
     ```sh
     cd Anki-Deck-Master
-    ```
+    
 
 3. Install the dependencies in a virtual environnement:
     ```sh
     pip install -r requirements.txt
-    ```
+    
 
-## Running the application
+## Running the Application
 
 After the installation of the dependencies, you can run the application using:
     ```sh
     python deck_creator.py
-    ```
+    
+
+If you chose to use the `.exe` file, just double click on it.
 
 # Known Issues
 
