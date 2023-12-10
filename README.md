@@ -6,7 +6,9 @@ The final result is a `.apkg` file that can be imported into Anki.
 
 The purpose of this project was to make the library Genanki more accessible to people that are not able to code, or do not want to bother.
 
-![Image showing the App](img/Showcase.png)
+<div align="center">
+  <img src="img/Showcase.png" alt="Image showing the App">
+</div>
 
 ## Features
 
