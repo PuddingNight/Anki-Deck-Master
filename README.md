@@ -30,24 +30,24 @@ For the second option, please follow these guidelines:
 1. Clone the repository:
    ```sh
    git clone https://github.com/PuddingNight/Anki-Deck-Master
-   
+   ```
 
 2. Navigate to the cloned repository:
     ```sh
     cd Anki-Deck-Master
-    
+    ```
 
 3. Install the dependencies in a virtual environnement:
     ```sh
     pip install -r requirements.txt
-    
+    ```
 
 ## Running the Application
 
 After the installation of the dependencies, you can run the application using:
     ```sh
     python deck_creator.py
-    
+    ```
 
 If you chose to use the `.exe` file, just double click on it.
 
