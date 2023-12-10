@@ -6,6 +6,8 @@ The final result is a `.apkg` file that can be imported into Anki.
 
 The purpose of this project was to make the library Genanki more accessible to people that are not able to code, or do not want to bother.
 
+![Image showing the App](img/Showcase.png)
+
 ## Features
 
 - Add, edit, and delete flashcards
@@ -18,7 +20,8 @@ The purpose of this project was to make the library Genanki more accessible to p
 
 To install and run Anki Deck Master, you have two options, either you [download and run the .exe](https://github.com/PuddingNight/Anki-Deck-Master/releases/download/Anki_Deck_Master/Anki_Deck_Master.exe) that is made available for you, or you can clone this repo and run it like a normal script.
 
-For the second option, please follow these guidelines:
+- For the first option, you will get a warning from chrome and / or Windows defender. if you do not want to run the risk of executing code that you did not audited, choose the second option after you've read the deck_creator.py.
+- For the second option, please follow these guidelines:
 
 ### Prerequisites
 
