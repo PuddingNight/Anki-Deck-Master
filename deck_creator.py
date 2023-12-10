@@ -74,7 +74,17 @@ class AnkiDeckApp:
         self.apply_theme()
         self.populate_treeview()
         root.title("Anki Deck Creator")
-        root.iconbitmap('C:\Root\Syncronisation\Import\Personnel\CODE\Python3\GenAnki\Genanki\Test_GUI\logo.ico')
+        # Correctly reference the icon in the bundled app
+        if getattr(sys, 'frozen', False):
+            # If the application is run as a bundled executable
+            icon_path = os.path.join(sys._MEIPASS, 'logo.ico')
+            print(f"Icon path: {icon_path}")  # Debug: print the icon path
+        else:
+            # If running in a development environment
+            icon_path = os.path.join(os.path.dirname(__file__), 'logo.ico')
+
+        root.iconbitmap(icon_path)
+
 
     def create_widgets(self):
         self.tree = ttk.Treeview(self.root, columns=('Question', 'Answer'), show='headings', selectmode='extended')

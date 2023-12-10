@@ -5,7 +5,7 @@ a = Analysis(
     ['deck_creator.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('logo.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

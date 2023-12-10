@@ -1,4 +1,4 @@
-('C:\\Root\\Syncronisation\\Import\\Personnel\\CODE\\Python3\\GenAnki\\Genanki\\Test_GUI\\build\\Anki_Deck_Master\\PYZ-00.pyz',
+('C:\\Root\\Syncronisation\\Import\\Personnel\\CODE\\Python3\\GenAnki\\Anki-Deck-Master\\build\\Anki_Deck_Master\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\Homme\\anaconda3\\envs\\Data_Science\\Lib\\_compat_pickle.py',
    'PYMODULE'),
